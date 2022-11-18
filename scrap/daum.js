@@ -45,15 +45,16 @@ function splitArray(candid) {
         dataset.links.push(article_hrefs[i])
     }
 
-    // const data = JSON.stringify(dataset)
-    // fs.writeFile('../user.json', data, err => {
-    //     if (err) {
-    //         throw err
-    //     }
-    //     console.log('JSON data is saved.')
-    // })
 
-    const currentTime = new Date();
-    console.log(`wait start ${index} currentHour: ${currentTime}`);
+    const data = JSON.stringify(dataset)
+    fs.writeFile('../user.json', data, err => {
+        if (err) {
+            throw err
+        }
+        console.log('JSON data is saved.')
+    })
+
+    // const currentTime = new Date();
+    // console.log(`wait start ${index} currentHour: ${currentTime}`);
 
 })();
