@@ -1,1 +1,2 @@
-# news_recommendation_app
+#   뉴스 추천 토이 프로젝트
+
