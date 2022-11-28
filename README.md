@@ -8,6 +8,3 @@ Python, FastAPI
 
 ### Database
 Supabase
-
-### ML model
-(content-based)Doc2vec
