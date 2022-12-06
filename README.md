@@ -2,7 +2,3 @@
 
 ### Frontend
 Javascrit, React, Next.js, Chakra-ui
-
-### Backend
-Python, FastAPI
-
